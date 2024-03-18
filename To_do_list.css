@@ -1,0 +1,89 @@
+body {
+    background-image: url(588760-most-beautiful-forest-wallpaper-beautiful-forest-forest-wallpaper-conifer-forest.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    padding: 40px;
+    border: 1px solid darkgreen;
+    border-radius: 20px;
+    box-shadow: 2px 4px 12px 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(53, 9, 9);
+    font-size: 50px;
+}
+
+.container #addTaskInput {
+    border: solid;
+    color: darkgreen;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.container .add-task-btn {
+    border-color: greenyellow;
+    border-style: dashed;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.container .add-task-btn:hover {
+    background: rgb(56, 209, 209);
+}
+
+.container #added-task {
+    background: darkseagreen;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+}
+
+.task {
+    font-size: 14px;
+    flex-grow: 1;
+    margin: 5px;
+}
+
+.task.completed {
+    color: aquamarine;
+    text-decoration: line-through;
+}
+
+.delete-btn {
+    background-color: darkseagreen;
+    color: aqua;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 8px;
+    padding: 10px 20px;
+}
+
+.delete-btn:hover {
+    background: rgb(153, 219, 153);
+}
